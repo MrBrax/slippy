@@ -104,6 +104,82 @@
       ]
     },
     {
+      "__guid": "aa08e775-2859-46f4-abe5-771fd93484a5",
+      "Name": "Sphere (2)",
+      "Position": "-436.099,1951.605,670.984",
+      "Enabled": true,
+      "NetworkMode": 2,
+      "Components": [
+        {
+          "__type": "ModelRenderer",
+          "__guid": "487063c1-a78e-419f-af6c-ecd72436907e",
+          "BodyGroups": 18446744073709551615,
+          "Model": "models/dev/sphere.vmdl",
+          "RenderType": "On",
+          "Tint": "1,1,1,1"
+        },
+        {
+          "__type": "SphereCollider",
+          "__guid": "20961783-0391-487a-a8ba-0591a8ee5e69",
+          "Center": "0,0,0",
+          "IsTrigger": false,
+          "Radius": 32,
+          "Static": false,
+          "Surface": "surfaces/brick.surface"
+        },
+        {
+          "__type": "Rigidbody",
+          "__guid": "1a0e3d38-e760-431b-8365-af9bb8702509",
+          "AngularDamping": 0.3,
+          "Gravity": true,
+          "LinearDamping": 0,
+          "Locking": {},
+          "MassOverride": 0,
+          "MotionEnabled": true,
+          "RigidbodyFlags": 0,
+          "StartAsleep": false
+        }
+      ]
+    },
+    {
+      "__guid": "b924bc4a-0edc-448f-8046-609df98d10da",
+      "Name": "Sphere (3)",
+      "Position": "-862.4617,1951.605,670.984",
+      "Enabled": true,
+      "NetworkMode": 2,
+      "Components": [
+        {
+          "__type": "ModelRenderer",
+          "__guid": "61bcbc4f-3d64-42c2-a383-7c499e8c8d55",
+          "BodyGroups": 18446744073709551615,
+          "Model": "models/dev/sphere.vmdl",
+          "RenderType": "On",
+          "Tint": "1,1,1,1"
+        },
+        {
+          "__type": "SphereCollider",
+          "__guid": "c7a5dba9-aa4a-4404-9fde-b7f79e71a416",
+          "Center": "0,0,0",
+          "IsTrigger": false,
+          "Radius": 32,
+          "Static": false,
+          "Surface": "surfaces/brick.surface"
+        },
+        {
+          "__type": "Rigidbody",
+          "__guid": "8df556d4-67bd-4e18-bc39-4aad4dc6b070",
+          "AngularDamping": 0.3,
+          "Gravity": true,
+          "LinearDamping": 0,
+          "Locking": {},
+          "MassOverride": 0,
+          "MotionEnabled": true,
+          "RigidbodyFlags": 0,
+          "StartAsleep": false
+        }
+      ]
+    },
+    {
       "__guid": "2fa68225-2891-4711-a24f-26009a961852",
       "Name": "Sphere (1)",
       "Position": "290.7776,1951.605,670.984",
@@ -140,6 +216,116 @@
           "StartAsleep": false
         }
       ]
+    },
+    {
+      "__guid": "efeb5a69-bc91-46d7-837f-7f5681e4fd67",
+      "Name": "Cube",
+      "Position": "-440.232,-763.2561,160.0529",
+      "Scale": "6.599997,89.53865,1",
+      "Enabled": true,
+      "NetworkMode": 2,
+      "Components": [
+        {
+          "__type": "ModelRenderer",
+          "__guid": "a21a7f67-0026-47bf-890d-9e5b166b9536",
+          "BodyGroups": 18446744073709551615,
+          "Model": "models/dev/box.vmdl",
+          "RenderType": "On",
+          "Tint": "0.51044,0.54348,0.90698,1"
+        },
+        {
+          "__type": "BoxCollider",
+          "__guid": "83de39a2-4479-455b-ac00-5c195ad8ddee",
+          "Center": "0,0,0",
+          "IsTrigger": false,
+          "Scale": "50,50,50",
+          "Static": true,
+          "Surface": "surface/snow.surface"
+        }
+      ]
+    },
+    {
+      "__guid": "ad3fc85d-89de-4b16-810c-e2308e42c611",
+      "Name": "Cube (3)",
+      "Position": "-848.1682,-763.2561,160.0529",
+      "Scale": "6.599997,85.76803,1",
+      "Enabled": true,
+      "NetworkMode": 2,
+      "Components": [
+        {
+          "__type": "ModelRenderer",
+          "__guid": "2605f3e2-f8c8-40fa-a75b-62263b6ed002",
+          "BodyGroups": 18446744073709551615,
+          "Model": "models/dev/box.vmdl",
+          "RenderType": "On",
+          "Tint": "0.06819,0.06819,0.91628,1"
+        },
+        {
+          "__type": "BoxCollider",
+          "__guid": "3eee2874-0ceb-4300-9ed6-a91ddc89a1b6",
+          "Center": "0,0,0",
+          "IsTrigger": false,
+          "Scale": "50,50,50",
+          "Static": true,
+          "Surface": "surface/superice.surface"
+        }
+      ]
+    },
+    {
+      "__guid": "448f90a2-0e1e-4b0b-98ae-93d5f2165214",
+      "Name": "Cube (1)",
+      "Position": "-440.232,918.3638,204.8394",
+      "Rotation": "0.1672558,0,0,0.9859136",
+      "Scale": "6.599997,63.39996,1",
+      "Enabled": true,
+      "NetworkMode": 2,
+      "Components": [
+        {
+          "__type": "ModelRenderer",
+          "__guid": "3c6844de-7bdd-46b8-a35d-69373c57d0d9",
+          "BodyGroups": 18446744073709551615,
+          "Model": "models/dev/box.vmdl",
+          "RenderType": "On",
+          "Tint": "0.5582,0.61191,0.85116,1"
+        },
+        {
+          "__type": "BoxCollider",
+          "__guid": "b1624eaa-0853-4472-96be-5d764712d089",
+          "Center": "0,0,0",
+          "IsTrigger": false,
+          "Scale": "50,50,50",
+          "Static": true,
+          "Surface": "surface/snow.surface"
+        }
+      ]
+    },
+    {
+      "__guid": "c2a429d1-596d-46b9-932b-34f858ea8ea1",
+      "Name": "Cube (2)",
+      "Position": "-848.1682,918.3638,204.8394",
+      "Rotation": "0.1672558,0,0,0.9859136",
+      "Scale": "6.599997,63.39996,1",
+      "Enabled": true,
+      "NetworkMode": 2,
+      "Components": [
+        {
+          "__type": "ModelRenderer",
+          "__guid": "91dc3059-0370-421d-82c9-b2cba2ae2525",
+          "BodyGroups": 18446744073709551615,
+          "Model": "models/dev/box.vmdl",
+          "RenderType": "On",
+          "Tint": "0.26038,0.03089,0.94884,1"
+        },
+        {
+          "__type": "BoxCollider",
+          "__guid": "8b826487-dada-4e92-9d33-e48a2bc5493b",
+          "Center": "0,0,0",
+          "IsTrigger": false,
+          "Scale": "50,50,50",
+          "Static": true,
+          "Surface": "surface/superice.surface"
+        }
+      ]
     }
   ],
   "SceneProperties": {
@@ -165,6 +351,6 @@
   },
   "Title": "minimal",
   "Description": "",
-  "LastSaved": "2024-03-14T10:19:28.465926\u002B01:00",
+  "LastSaved": "2024-03-14T10:25:46.3112845\u002B01:00",
   "__references": []
 }
