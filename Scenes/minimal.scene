@@ -1,0 +1,170 @@
+{
+  "Id": "0015e764-6d98-4259-ac82-2992a989112a",
+  "GameObjects": [
+    {
+      "__guid": "db48a398-1bb0-46c5-bf0d-2661b421a863",
+      "Name": "Main Camera",
+      "Position": "-2374.135,-214.76,1939.656",
+      "Rotation": "0,0.258819,0,0.9659258",
+      "Scale": "-6.120555,-7.620553,-7.620553",
+      "Enabled": true,
+      "NetworkMode": 2,
+      "Components": [
+        {
+          "__type": "CameraComponent",
+          "__guid": "8653ce8d-26e8-40e6-b147-a3468a03abb9",
+          "BackgroundColor": "0.33333,0.46275,0.52157,1",
+          "ClearFlags": "All",
+          "FieldOfView": 93.9,
+          "IsMainCamera": true,
+          "Orthographic": true,
+          "OrthographicHeight": 3000,
+          "Priority": 1,
+          "RenderExcludeTags": "",
+          "RenderTags": "",
+          "TargetEye": "None",
+          "Viewport": "0,0,1,1",
+          "ZFar": 10000,
+          "ZNear": 10
+        }
+      ]
+    },
+    {
+      "__guid": "f4643b8e-962c-41ae-8d0a-6f5212705408",
+      "Name": "Directional Light",
+      "Position": "0,0,200",
+      "Rotation": "-0.2459842,0.5938582,0.2931525,0.7077327",
+      "Tags": "light_directional,light",
+      "Enabled": true,
+      "NetworkMode": 2,
+      "Components": [
+        {
+          "__type": "DirectionalLight",
+          "__guid": "11c57ab2-310d-4846-b473-7f4fd2633a69",
+          "FogMode": "Enabled",
+          "FogStrength": 1,
+          "LightColor": "0.91373,0.98039,1,1",
+          "Shadows": true,
+          "SkyColor": "0.05882,0.07451,0.08235,1"
+        }
+      ]
+    },
+    {
+      "__guid": "a6b7825c-258b-4d5f-a6a9-7b7631f96449",
+      "Name": "Object",
+      "Position": "-101.2225,-56.44356,36.09349",
+      "Enabled": true,
+      "NetworkMode": 2,
+      "Components": [
+        {
+          "__type": "MapInstance",
+          "__guid": "bae219e9-5c0c-4932-b253-09f1b2546e5a",
+          "MapName": "slippy.vpk",
+          "UseMapFromLaunch": false
+        }
+      ],
+      "Children": []
+    },
+    {
+      "__guid": "42d08178-4dbe-4841-96ac-1080025112a7",
+      "Name": "Sphere",
+      "Position": "-59.05821,1951.605,670.984",
+      "Enabled": true,
+      "NetworkMode": 2,
+      "Components": [
+        {
+          "__type": "ModelRenderer",
+          "__guid": "fb808173-b130-440d-a040-c716e5848f9b",
+          "BodyGroups": 18446744073709551615,
+          "Model": "models/dev/sphere.vmdl",
+          "RenderType": "On",
+          "Tint": "1,1,1,1"
+        },
+        {
+          "__type": "SphereCollider",
+          "__guid": "77113613-521b-4fea-aec6-6a78df6c9238",
+          "Center": "0,0,0",
+          "IsTrigger": false,
+          "Radius": 32,
+          "Static": false,
+          "Surface": "surfaces/brick.surface"
+        },
+        {
+          "__type": "Rigidbody",
+          "__guid": "81a73225-972c-4c5d-9398-027a568e2ddd",
+          "AngularDamping": 0.3,
+          "Gravity": true,
+          "LinearDamping": 0,
+          "Locking": {},
+          "MassOverride": 0,
+          "MotionEnabled": true,
+          "RigidbodyFlags": 0,
+          "StartAsleep": false
+        }
+      ]
+    },
+    {
+      "__guid": "2fa68225-2891-4711-a24f-26009a961852",
+      "Name": "Sphere (1)",
+      "Position": "290.7776,1951.605,670.984",
+      "Enabled": true,
+      "NetworkMode": 2,
+      "Components": [
+        {
+          "__type": "ModelRenderer",
+          "__guid": "0014246c-4ea3-489f-82ec-db208d5f1067",
+          "BodyGroups": 18446744073709551615,
+          "Model": "models/dev/sphere.vmdl",
+          "RenderType": "On",
+          "Tint": "1,1,1,1"
+        },
+        {
+          "__type": "SphereCollider",
+          "__guid": "fe50e9ac-3d12-4dff-8f66-77690c942de1",
+          "Center": "0,0,0",
+          "IsTrigger": false,
+          "Radius": 32,
+          "Static": false,
+          "Surface": "surfaces/brick.surface"
+        },
+        {
+          "__type": "Rigidbody",
+          "__guid": "7a25925a-02c1-413f-a57b-67ea993de260",
+          "AngularDamping": 0.3,
+          "Gravity": true,
+          "LinearDamping": 0,
+          "Locking": {},
+          "MassOverride": 0,
+          "MotionEnabled": true,
+          "RigidbodyFlags": 0,
+          "StartAsleep": false
+        }
+      ]
+    }
+  ],
+  "SceneProperties": {
+    "FixedUpdateFrequency": 50,
+    "Lerping": true,
+    "MaxFixedUpdates": 5,
+    "NetworkFrequency": 30,
+    "ThreadedAnimation": true,
+    "TimeScale": 1,
+    "UseFixedUpdate": true,
+    "NavMesh": {
+      "Enabled": false,
+      "IncludeStaticBodies": true,
+      "IncludeKeyframedBodies": true,
+      "EditorAutoUpdate": true,
+      "AgentHeight": 64,
+      "AgentRadius": 16,
+      "AgentStepSize": 18,
+      "AgentMaxSlope": 40,
+      "ExcludedBodies": "",
+      "IncludedBodies": ""
+    }
+  },
+  "Title": "minimal",
+  "Description": "",
+  "LastSaved": "2024-03-14T10:19:28.465926\u002B01:00",
+  "__references": []
+}
